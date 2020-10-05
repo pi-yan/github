@@ -13,3 +13,7 @@ header {
 header h1 {
 
 }
+
+.top-wrapper {
+  background-image: url(/pictures/shiba.jpg);
+}
