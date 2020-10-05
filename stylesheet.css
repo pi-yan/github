@@ -11,9 +11,9 @@ header {
 }
 
 .header-right a {
-  padding: 0 30px 0 30px;
+  padding: 0 10px 0 10px;
 }
 
 .top-wrapper {
-  background-image: url(/pictures/shiba.jpg);
+  background-image: url(pictures/shiba.jpg);
 }
