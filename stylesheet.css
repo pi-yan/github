@@ -10,8 +10,8 @@ header {
   float: right;
 }
 
-header h1 {
-
+.header-right a {
+  padding: 0 30px 0 30px;
 }
 
 .top-wrapper {
