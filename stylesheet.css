@@ -6,9 +6,12 @@ header {
   background-color: white;
 }
 
-.header-left {
-  float: left;
-  width: 100px;
+.header-left {  
+}
+
+header img {
+	width: 200px;
+	float: left;
 }
 
 .header-right {
