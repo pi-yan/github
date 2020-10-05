@@ -6,6 +6,10 @@ header {
   background-color: white;
 }
 
+.header-right {
+  float: right;
+}
+
 header h1 {
 
 }
