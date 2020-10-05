@@ -21,7 +21,6 @@ header {
 }
 
 .top-wrapper {
-  height: 1200px;
   background-image: url(pictures/shiba.jpg);
   background-size: cover;
 }
