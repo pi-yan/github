@@ -3,11 +3,7 @@
 }
 
 header {
-  background-color;
   height: 100px;
-}
-
-.header-left {  
 }
 
 header img {
@@ -31,9 +27,9 @@ header img {
   background-image: url(pictures/shiba.jpg);
   background-size: cover;
   height: 750px;
+  border-radius: 15px;
 }
 
 footer img {
 	width: 200px;
-	
 }
