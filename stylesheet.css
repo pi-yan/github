@@ -49,8 +49,26 @@ header img {
   font-size: 20px;
 }
 
-.container {
-  margin: 0 auto;
+.contents {
+  margin: 50px;
+}
+
+.shop-photos {
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+}
+
+.info {
+  width: 50%;
+  height: 300px;
+  border: 1px solid black;
+  float: right;
+}
+
+.clear {
+  clear: left;
 }
 
 footer {
