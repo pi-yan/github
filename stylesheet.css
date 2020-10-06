@@ -38,7 +38,7 @@ header img {
   border: 1px solid #D3D3D3;
   border-radius: 10px;
   color:#494949;
-  background-image: url("pictures/pink.jpg");
+  background-color: aliceblue
 }
 
 .message-wrapper h1 {
@@ -83,4 +83,7 @@ footer img {
 
 footer p {
   font-size: 12px;
+}
+
+.googlemap {
 }
