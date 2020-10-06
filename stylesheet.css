@@ -25,8 +25,13 @@ header img {
 .lesson-wrapper {
   background-image: url(pictures/shiba.jpg);
   background-size: cover;
-  height: 750px;
+  height: 500px;
   border-radius: 15px;
+}
+
+.message-wrapper {
+	text-align: center;
+	font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
 }
 
 footer img {
