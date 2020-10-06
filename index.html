@@ -6,6 +6,20 @@
   <title>福丸柴カフェ</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+  </script>
+
 </head>
 <body>
   <header>
@@ -26,7 +40,12 @@
     </div>
   </div>
   <div class="lesson-wrapper">
-    
+    <div class="slider">
+	  <img src="pictures/shiba.jpg" width="500" height="300" alt="">
+	  <img src="pictures/shiba2.png" width="500" height="300" alt="">
+	  <img src="pictures/shiba3.jpg" width="500" height="300" alt="">
+  	  <img src="pictures/shiba4.jpg" width="500" height="300" alt="">
+	</div>
   </div>
   <div class="message-wrapper">
     <div class="container">
