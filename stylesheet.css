@@ -31,9 +31,8 @@ header img {
 }
 */
 
-.slider {
-  width: 75%;
-  height: 500px;
+.lesson-wrapper {
+  height: 700px;
 }
 
 .message-wrapper {
