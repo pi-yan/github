@@ -3,7 +3,8 @@
 }
 
 header {
-  background-color: white;
+  background-color;
+  height: 100px;
 }
 
 .header-left {  
@@ -21,9 +22,18 @@ header img {
 
 .header-right a {
   padding: 0 10px 0 10px;
+  line-height: 100px;
+  font-size: 20px;
+  font-family: "";
 }
 
-.top-wrapper {
+.lesson-wrapper {
   background-image: url(pictures/shiba.jpg);
   background-size: cover;
+  height: 750px;
+}
+
+footer img {
+	width: 200px;
+	
 }
