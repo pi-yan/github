@@ -46,7 +46,8 @@ header img {
 }
 
 footer {
-  text-align: center;
+  margin-top: 20px;
+  float: right
 }
 
 footer img {
