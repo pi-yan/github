@@ -22,14 +22,9 @@ header img {
   width: 120px;
 }
 
-/*
-.lesson-wrapper {
-  background-image: url(pictures/shiba.jpg);
-  background-size: cover;
-  height: 500px;
-  border-radius: 15px;
+.pictures-wrapper {
+	margin-bottom: 40px;
 }
-*/
 
 .lesson-wrapper {
   height: 700px;
