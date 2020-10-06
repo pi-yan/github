@@ -31,6 +31,11 @@ header img {
 }
 */
 
+.slider {
+  width: 75%;
+  height: 500px;
+}
+
 .message-wrapper {
   text-align: center;
   font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
