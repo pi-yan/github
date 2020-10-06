@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-header {
+.site-header {
   height: 100px;
 }
 
@@ -41,15 +41,28 @@ header img {
   background-image: url("pictures/pink.jpg");
 }
 
+.message-wrapper h1 {
+  font-size: 40px;
+}
+
+.message-wrapper p {
+  font-size: 20px;
+}
+
 .container {
   margin: 0 auto;
 }
 
 footer {
   margin-top: 20px;
-  float: right
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  background-color: aliceblue;
 }
 
 footer img {
-	width: 200px;
+  width: 150px;
+}
+
+footer p {
+  font-size: 12px;
 }
