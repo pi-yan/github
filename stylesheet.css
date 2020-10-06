@@ -36,8 +36,13 @@ header img {
 }
 
 .message-wrapper {
+  margin: 0 auto;
   text-align: center;
-  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
+  width: 75%;
+  margin: 20px 0 0 0;
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  border: 2px solid #D3D3D3;
+  border-radius: 10px;
 }
 
 footer {
