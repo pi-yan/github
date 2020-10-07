@@ -11,6 +11,7 @@ body {
   background-image: url("pictures/dot.jpg");
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
+  margin-bottom: 30px;
 }
 
 header img {
@@ -32,12 +33,14 @@ header img {
 }
 
 .pictures-wrapper {
-	margin-bottom: 40px;
+  margin: 0 auto;
+  width: 75%;
 }
 
-.lesson-wrapper {
-  height: 700px;
+.slider {
+	
 }
+
 
 .message-wrapper {
   text-align: center;
