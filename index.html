@@ -19,7 +19,7 @@
             });
         });
 	    
-	    /* クリックスクロール */
+	    /* クリックスクロール 
 	    var position = $('#top').offset().top;
 	    $("#top-button").click(function(){
     	  $("html,body").animate({
@@ -27,7 +27,21 @@
     	  }, {
         	  queue : false
     	  });
-});
+		});
+		*/
+	    
+	    $(function(){
+          // #で始まるリンクをクリックしたら実行されます
+          $('a[href^="#"]').click(function() {
+            // スクロールの速度
+            var speed = 400; // ミリ秒で記述
+            var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $('body,html').animate({scrollTop:position}, speed, 'swing');
+            return false;
+          });
+        });
   </script>
 
 </head>
@@ -38,10 +52,10 @@
         <img src="pictures/logo.png" alt="">
       </div>
       <div class="header-right">
-        <a href="#"><img src="pictures/shiba_syoukai.png"></a>
-        <a href="#"><img src="pictures/system.png"></a>
-		<a href="#"><img src="pictures/menu.png"></a>
-        <a href="#"><img src="pictures/access.png"></a>
+        <a href="#1"><img src="pictures/shiba_syoukai.png"></a>
+        <a href="#2"><img src="pictures/system.png"></a>
+		<a href="#3"><img src="pictures/menu.png"></a>
+        <a href="#4"><img src="pictures/access.png"></a>
       </div>
     </div>
   </header>
@@ -68,7 +82,7 @@
 	</div>
   </div>
   <div class="contents">
-    <div class="shiba-syoukai">
+    <div class="shiba-syoukai" id="1">
   	  <img src="pictures/shiba_syoukai.png">
 	  <div class="dogs">
 	    <div class="shiba">
@@ -93,13 +107,13 @@
 		</div>
 	  </div>
     </div>
-    <div class="system">
+    <div class="system" id="2">
       <img src="pictures/system.png">
     </div>
-	<div class="menu">
+	<div class="menu" id="3">
   	  <img src="pictures/menu.png">
     </div>
-    <div class="access">
+    <div class="access" id="4">
       <img src="pictures/access.png">
 	  <div class="map">
 		<iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13294.400919729807!2d130.4207274!3d33.5897275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ee22b3d45b98b90!2z5Y2a5aSa6aeF!5e0!3m2!1sja!2sjp!4v1602012615592!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
