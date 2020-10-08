@@ -126,9 +126,14 @@ header img {
   display: flex;
 }
 
+.shiba-syoukai, .system, .menu, .access {
+  margin-bottom: 50px;
+}
+
 .top-button {
   text-align: center;
   cursor: url("pictures/hukidashi.png");
+  margin-bottom: 50px;
 }
 
 .googlemap, .route {
