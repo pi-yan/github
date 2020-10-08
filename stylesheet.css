@@ -92,6 +92,12 @@ header img {
   width: 75%;
 }
 
+.contents img {
+  border-bottom: 1px dashed #D7DDE4;
+  padding-bottom: 7px;
+  margin-bottom: 30px;
+}
+
 .dogs {
   display: flex;
 }
