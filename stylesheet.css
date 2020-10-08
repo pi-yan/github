@@ -75,10 +75,15 @@ header img {
   margin: auto 15px auto 15px;
 }
 
+.message-text {
+	margin: auto;
+}
+
 .contents {
   margin: 50px;
 }
 
+/*
 .shop-photos {
   width: 50%;
   height: 300px;
@@ -92,6 +97,7 @@ header img {
   border: 1px solid black;
   float: right;
 }
+*/
 
 .clear {
   clear: left;
