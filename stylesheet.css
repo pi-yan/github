@@ -122,9 +122,26 @@ header img {
 }
 */
 
+.access {
+}
+
+.map {
+  margin: 0 auto;
+  display: flex;
+}
+
 .top-button {
   text-align: center;
   cursor: pointer;
+}
+
+.googlemap, .route {
+  flex: auto;
+  margin: auto 30px;
+}
+
+.route td{
+  text-align: center;
 }
 
 .clear {
