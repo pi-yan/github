@@ -151,9 +151,14 @@ header img {
 }
 
 footer {
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
   font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   background-color: aliceblue;
+}
+
+.footer-access {
+  margin: 0 auto;
+  text-align: center;
 }
 
 footer img {
