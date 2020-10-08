@@ -20,9 +20,14 @@
         });
 	    
 	    /* クリックスクロール */
-	    $("#top-buitton").click(function(){
-    	  $(window).scrollTop(aLocate);
-		});
+	    var position = $('#top').offset().top;
+	    $("#top-button").click(function(){
+    	  $("html,body").animate({
+        	  scrollTop : position
+    	  }, {
+        	  queue : false
+    	  });
+});
   </script>
 
 </head>
@@ -49,7 +54,7 @@
 	</div>
   </div>
   <div class="message-wrapper">
-    <div class="photos">
+    <div class="photos" id="top">
       <img src="pictures/shiba2.png">
 	</div>
 	<div class="message-text">

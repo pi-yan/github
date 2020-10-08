@@ -124,6 +124,7 @@ header img {
 
 .top-button {
   text-align: center;
+  cursor: pointer;
 }
 
 .clear {
