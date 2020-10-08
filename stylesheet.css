@@ -108,6 +108,15 @@ header img {
   width: 75%;
 }
 
+.cafe-menu {
+  display: flex;
+}
+
+.cafe-menu a, p {
+  flex: auto;
+  margin: 30px auto;
+}
+
 .cafe-menu img {
   width: 150px;
 }
