@@ -158,6 +158,12 @@ header img {
   margin-bottom: 50px;
 }
 
+.top-button:active {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
 .top-button img:hover {
 	opacity: 0.8;
 }
@@ -203,6 +209,7 @@ footer .container {
 
 footer p {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .footer-access {
