@@ -108,25 +108,6 @@ header img {
   width: 75%;
 }
 
-/*
-.shop-photos {
-  width: 50%;
-  height: 300px;
-  border: 1px solid black;
-  float: left;
-}
-
-.info {
-  width: 50%;
-  height: 300px;
-  border: 1px solid black;
-  float: right;
-}
-*/
-
-.access {
-}
-
 .map {
   margin: 0 auto;
   display: flex;
@@ -146,12 +127,17 @@ header img {
   text-align: center;
 }
 
+.route table {
+  border: 0.5px solid #BAB4B4;
+}
+
 .clear {
   clear: left;
 }
 
 footer {
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
   font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   background-color: aliceblue;
 }
@@ -162,7 +148,12 @@ footer {
 }
 
 footer img {
+  margin: 0 auto;
   width: 150px;
+}
+
+footer .container {
+  text-align: center;
 }
 
 footer p {
