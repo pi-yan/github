@@ -107,7 +107,7 @@ header img {
   width: 25%;
   margin: 30px 10px 30px 10px;
   padding: 15px;
-  border: 1px solid #E9E9E9 
+  border: 1px solid #E9E9E9;
 }
 
 .shiba img {
@@ -136,6 +136,9 @@ header img {
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 3px dashed #D7DDE4;
+  background-color: aliceblue;
+  background-blend-mode:lighten;
+  border-radius: 15px;
 }
 
 .top-button {
