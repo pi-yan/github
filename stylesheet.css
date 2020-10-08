@@ -8,6 +8,10 @@ body {
 
 }
 
+p {
+  font-size: 20px;
+}
+
 .site-header {
   height: 100px; 
   background-image: url("pictures/dot.jpg");
