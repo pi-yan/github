@@ -108,6 +108,10 @@ header img {
   width: 75%;
 }
 
+.cafe-menu img {
+  width: 150px;
+}
+
 .map {
   margin: 0 auto;
   display: flex;
