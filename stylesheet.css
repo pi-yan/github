@@ -34,13 +34,17 @@ header img {
   width: 120px;
 }
 
+.header-right img:hover {
+	opacity: 0.8;
+}
+
 .pictures-wrapper {
   margin: 50px auto 50px auto;
   width: 75%;
 }
 
-.slider {
-	
+.slider img:hover {
+	opacity: 0.8;
 }
 
 
@@ -147,6 +151,10 @@ header img {
   margin-bottom: 50px;
 }
 
+.top-button img:hover {
+	opacity: 0.8;
+}
+
 .googlemap, .route {
   flex: auto;
   margin: auto 30px;
@@ -179,6 +187,7 @@ footer {
 footer img {
   margin: 0 auto;
   width: 150px;
+  padding-top: 15px;
 }
 
 footer .container {
