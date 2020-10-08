@@ -21,7 +21,7 @@ header img {
   width: 220px;
   float: left;
   margin-left: 20px;
-  cursor: url("pictures/hukidashi.png");
+  cursor: url("pictures/cursor.cur"), auto;
 }
 
 .header-right {
@@ -52,7 +52,8 @@ header img {
 }
 
 .slider img:hover {
-	opacity: 0.8;
+  opacity: 0.8;
+  cursor: url("pictures/cursor.cur"), auto;
 }
 
 
@@ -92,7 +93,7 @@ header img {
 .photos {
   margin: auto 15px auto 15px;
   border-radius: 5px;
-  cursor: url("pictures/nikukyuu.cur"), auto;
+  cursor: url("pictures/cursor.cur"), auto;
 }
 
 .message-text {
@@ -109,6 +110,7 @@ header img {
   border-bottom: 2px dashed #D7DDE4;
   padding-bottom: 7px;
   margin-bottom: 30px;
+  cursor: url("pictures/cursor.cur"), auto;
 }
 
 .dogs {
@@ -161,7 +163,6 @@ header img {
 
 .top-button {
   text-align: center;
-  cursor: url("pictures/hukidashi.png");
   margin-bottom: 50px;
 }
 
@@ -172,7 +173,8 @@ header img {
 }
 
 .top-button img:hover {
-	opacity: 0.8;
+  opacity: 0.8;
+  cursor: url("pictures/cursor.cur"), auto;
 }
 
 .googlemap, .route {
