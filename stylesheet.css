@@ -243,25 +243,11 @@ footer p {
 .fadein {
 	opacity : 0.1;
 	transform : translate(0, 50px);
-	transition : all 500ms;
+	transition : all 2000ms;
 	}
 
 /* 画面内に入った状態 */
 .fadein.scrollin {
 	opacity : 1;
 	transform : translate(0, 0);
-	}
-
-#effect2 > div .fadein:nth-of-type(2) {
-	-moz-transition-delay:200ms;
-	-webkit-transition-delay:200ms;
-	-o-transition-delay:200ms;
-	-ms-transition-delay:200ms;
-	}
-/* 3つ目の要素に400msのdelayをかける */
-#effect2 > div .fadein:nth-of-type(3) {
-	-moz-transition-delay:400ms;
-	-webkit-transition-delay:400ms;
-	-o-transition-delay:400ms;
-	-ms-transition-delay:400ms;
 	}
