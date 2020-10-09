@@ -156,7 +156,7 @@ header img {
 .shiba-syoukai, .system, .menu, .access {
   margin-bottom: 50px;
   padding-bottom: 50px;
-  border-bottom: 3px dashed #D7DDE4;
+  border: 3px dashed #D7DDE4;
   background-color: aliceblue;
   background-blend-mode:lighten;
   border-radius: 15px;
@@ -224,6 +224,7 @@ footer img {
   margin: 0 auto;
   width: 150px;
   padding-top: 15px;
+  border: none;
 }
 
 footer .container {

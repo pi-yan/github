@@ -1,0 +1,3 @@
+$(function() {
+  $('.shiba').hide();
+});
