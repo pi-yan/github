@@ -87,6 +87,7 @@ header img {
 
 .message-wrapper p {
   font-size: 20px;
+  margin-bottom: 50px
 }
 
 .message-wrapper {
@@ -149,7 +150,7 @@ header img {
 
 .map {
   margin: 30px auto;
-  display: flex;
+  width: 50%;
 }
 
 .shiba-syoukai, .system, .menu, .access {
@@ -175,6 +176,11 @@ header img {
 .top-button img:hover {
   opacity: 0.8;
   cursor: url("pictures/cursor.cur"), auto;
+}
+
+.map_route {
+  display: flex;
+  margin: 0 auto;
 }
 
 .googlemap, .route {
