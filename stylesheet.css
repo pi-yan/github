@@ -128,7 +128,7 @@ header img {
 
 .andmore {
   float: right;
-  margin: 15px;
+  margin:  15px;
 }
 
 .shiba img {
@@ -141,7 +141,6 @@ header img {
 
 .cafe-menu a, p {
   flex: auto;
-  margin: 30px auto;
 }
 
 .cafe-menu img {
@@ -149,7 +148,7 @@ header img {
 }
 
 .map {
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
 }
 
@@ -205,7 +204,9 @@ footer {
 .share-buttons {
 }
 
-.button {
+.twitter-share-button {
+  display: block;
+  margin: 5px auto;
 }
 
 .footer-access {
