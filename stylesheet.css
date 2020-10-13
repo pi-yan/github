@@ -55,18 +55,17 @@ header img {
   width: 75%;
 }
 
-/*
+
 .slider {
   width: 650px;
   height: 500px;
 }
 
 .slider img {
-  margin: auto;
-  width: 600px;
-  height: 450px;
+  width: 100%;
+  height: auto;
 }
-*/
+
 
 .slider img:hover {
   opacity: 0.8;
