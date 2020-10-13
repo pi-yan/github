@@ -56,6 +56,8 @@ header img {
 }
 
 .slider img {
+  width: 600px;
+  height: 450px;
 }
 
 .slider img:hover {
