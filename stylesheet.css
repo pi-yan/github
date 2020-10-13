@@ -55,6 +55,9 @@ header img {
   width: 75%;
 }
 
+.slider img {
+}
+
 .slider img:hover {
   opacity: 0.8;
 }
