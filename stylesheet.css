@@ -53,21 +53,12 @@ header img {
 .pictures-wrapper {
   margin: 50px auto 50px auto;
   width: 75%;
-  position: relative;
+  height: : 700px;
 }
 
-.pictures-wrapper:before {
-  content:"";
-  display: block;
-  padding-top: 75%;
-}
-
-.slider {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.slider img {
+  width: 100%;
+  height: auto;
 }
 
 .slider img:hover {
