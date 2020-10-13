@@ -55,7 +55,13 @@ header img {
   width: 75%;
 }
 
+.slider {
+  width: 650px;
+  height: 500px;
+}
+
 .slider img {
+  margin: auto;
   width: 600px;
   height: 450px;
 }
