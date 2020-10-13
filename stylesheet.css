@@ -53,12 +53,6 @@ header img {
 .pictures-wrapper {
   margin: 50px auto 50px auto;
   width: 65%;
-  height: 300px;
-}
-
-.slider img {
-  width: 100%;
-  height: auto;
 }
 
 .slider img:hover {
