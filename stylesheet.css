@@ -53,7 +53,6 @@ header img {
 .pictures-wrapper {
   margin: 50px auto 50px auto;
   width: 60%;
-  height: 500px;
 }
 
 
@@ -63,7 +62,7 @@ header img {
 
 .slider img {
   width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 
