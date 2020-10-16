@@ -57,11 +57,11 @@ header img {
 
 
 .slider {
-  
+  width 1000px;
 }
 
 .slider img {
-  width: 800px;
+  width: 80%;
   height: 500px;
 }
 
