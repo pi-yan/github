@@ -292,11 +292,12 @@ footer p {
   }
   
   .map_route {
-    flex-wrap: wrap;
+    display: block;
   }
   
   .googlemap, .route {
     margin: 0 auto;
+    flex: initial;
   }
 }
 @media screen and (max-width: 768px) {
