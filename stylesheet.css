@@ -304,6 +304,11 @@ footer p {
   .header-right {
     width: 35%;
   }
+  
+  .header-right img {
+    line-height: 100px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
 /* 480pxまでの幅の場合に適応される */
