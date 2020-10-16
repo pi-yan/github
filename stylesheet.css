@@ -294,17 +294,20 @@ footer p {
   .map_route {
     display: block;
     margin: 0 auto;
-    text-align: center;
   }
   
   .googlemap, .route {
-    margin: 15px auto;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
+  .header-left {
+    width: 20%;
+  }
+  
   .header-right {
-    width: 60%;
+    width: 70%;
   }
   
   .header-right img {
