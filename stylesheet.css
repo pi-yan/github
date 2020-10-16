@@ -302,12 +302,13 @@ footer p {
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
   .header-right {
-    width: 35%;
+    width: 50%;
   }
   
   .header-right img {
     line-height: 100px;
     width: 100%;
+    float: right;
   }
 }
 @media screen and (max-width: 480px) {
