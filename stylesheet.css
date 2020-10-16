@@ -292,7 +292,7 @@ footer p {
   }
   
   .map_route {
-    display: block;
+    display: initial;
     margin: 0 auto;
   }
   
