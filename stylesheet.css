@@ -301,6 +301,9 @@ footer p {
 }
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
+  .header-right {
+    width: 35%;
+  }
 }
 @media screen and (max-width: 480px) {
 /* 480pxまでの幅の場合に適応される */
