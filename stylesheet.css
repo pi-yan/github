@@ -302,8 +302,8 @@ footer p {
 }
 @media screen and (max-width: 768px) {
 /* 768pxまでの幅の場合に適応される */
-  header {
-    height: 75px;
+  .site-header {
+    height: 75px; 
   }
   
   header img {
@@ -315,7 +315,7 @@ footer p {
   }
   
   .header-right img {
-    line-height: 100px;
+    line-height: 75px;
     width: 15%;
     float: right;
   }
