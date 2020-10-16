@@ -138,11 +138,6 @@ header img {
   border: 1px solid #E9E9E9;
 }
 
-..shiba img {
-  width: 100%;
-  height: 250px;
-}
-
 .andmore {
   float: right;
   margin:  15px;
@@ -267,3 +262,49 @@ footer p {
 	opacity : 1;
 	transform : translate(0, 0);
 	}
+
+/* メディアクエリ */
+@media screen and (max-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+    .message-wrapper {
+        display: block;
+    }
+    
+  .photos {
+    padding-top: 20px;
+  }
+  
+  .message-text img {
+    width: 50%;
+  }
+  
+  .message-text p {
+    font-size: 17px;
+  }
+  
+  .dogs {
+    flex-wrap: wrap;
+  }
+  
+  .shiba {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .map_route {
+    display: block;
+  }
+  
+  .map, .route {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+}
+@media screen and (max-width: 480px) {
+/* 480pxまでの幅の場合に適応される */
+}
+@media screen and (max-width: 320px) {
+/* 320pxまでの幅の場合に適応される */
+}
