@@ -323,6 +323,10 @@ footer p {
     width: 15%;
     float: right;
   }
+  
+  .route {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 480px) {
 /* 480pxまでの幅の場合に適応される */
