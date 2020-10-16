@@ -297,7 +297,10 @@ footer p {
   
   .googlemap, .route {
     margin: 0 auto;
-    flex: initial;
+  }
+  
+  .route {
+    width: 60%;
   }
 }
 @media screen and (max-width: 768px) {
