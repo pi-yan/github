@@ -308,6 +308,7 @@ footer p {
   
   header img {
     width: 20%;
+    line-height: 75px;
   }
   
   .header-right {
