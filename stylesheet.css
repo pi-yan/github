@@ -295,8 +295,8 @@ footer p {
     display: block;
   }
   
-  .map, .route {
-    margin: 0 auto;
+  .googlemap, .route {
+    margin: 15px auto;
   }
 }
 @media screen and (max-width: 768px) {
