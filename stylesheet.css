@@ -291,13 +291,9 @@ footer p {
     margin: 0 auto;
   }
   
-  .map_route {
-    display: initial;
-    margin: 0 auto;
-  }
-  
   .googlemap, .route {
     margin: 0 auto;
+    width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
