@@ -59,8 +59,11 @@
     float: right;
   }
   
+  .map {
+    width: 100%;
+  }
+  
   .route {
-    width: 40%;
   }
 }
 @media screen and (max-width : 480px ){
