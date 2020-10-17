@@ -412,6 +412,29 @@ footer p {
   .header-right {
     display: none;
   }
+  
+  .pictures-wrapper {
+    margin: 50px auto 50px auto;
+    width: 750%;
+  }
+
+
+  .slider {
+
+  }
+
+  .slider img {
+    width: 800px;
+    height: 550px;
+  }
+  
+  .photos {
+    width: 75%;
+  }
+  
+  .map. .route {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 320px) {
 /* 320pxまでの幅の場合に適応される */
