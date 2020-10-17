@@ -29,19 +29,22 @@ header img {
 
 :root {
   --hamburger-menu-size: 100px; /* メニューの大きさ */ 
-  --hamburger-menu-padding: 12px;  
-  --hamburger-menu-border-px: 6px; /* 線の太さ */
+  --hamburger-menu-padding: 3px;  
+  --hamburger-menu-border-px: 2px; /* 線の太さ */
   --hamburger-menu-border-color: #342534; /* 線の色 */
   --hamburger-menu-transition: 0.3s; /* アニメーション秒数 */
 }
 
 .hamburger-menu {
-  margin: 0 auto; /* 中央寄せしたいだけ */
+  float: right;
   cursor: pointer;
   position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: #fff;
+  width: 30px;
+  height: 20px;
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
+  display: none;
+  margin: 10px;
 }
 
 
@@ -389,8 +392,26 @@ footer p {
     width: 40%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width : 480px ){
 /* 480pxまでの幅の場合に適応される */
+  .site-header {
+    height: 50px; 
+  }
+  
+  header img {
+    width: 30%;
+    line-height: 50px;
+  }
+  
+  .hamburger-menu {
+    display: block;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .header-right {
+    display: none;
+  }
 }
 @media screen and (max-width: 320px) {
 /* 320pxまでの幅の場合に適応される */
