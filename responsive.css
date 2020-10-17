@@ -1,0 +1,113 @@
+/* メディアクエリ */
+@media screen and (max-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+    .message-wrapper {
+        display: block;
+    }
+    
+  .photos {
+    padding-top: 20px;
+  }
+  
+  .message-text img {
+    width: 50%;
+  }
+  
+  .message-text p {
+    font-size: 17px;
+  }
+  
+  .dogs {
+    flex-wrap: wrap;
+  }
+  
+  .shiba {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .map_route {
+    display: block;
+  }
+  
+  .googlemap, .route {
+    margin: 0 auto;
+  }
+  
+  .route {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+/* 768pxまでの幅の場合に適応される */
+  .site-header {
+    height: 75px; 
+  }
+  
+  header img {
+    width: 20%;
+    line-height: 75px;
+  }
+  
+  .header-right {
+    width: 70%;
+  }
+  
+  .header-right img {
+    line-height: 75px;
+    width: 15%;
+    float: right;
+  }
+  
+  .route {
+    width: 40%;
+  }
+}
+@media screen and (max-width : 480px ){
+/* 480pxまでの幅の場合に適応される */
+  .site-header {
+    height: 50px; 
+  }
+  
+  header img {
+    width: 30%;
+    line-height: 50px;
+  }
+  
+  .hamburger-menu {
+    display: block;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .pictures-wrapper {
+    margin: 50px auto 50px auto;
+    width: 750%;
+  }
+
+
+  .slider {
+    width: 200px;
+    height: 300px;
+  }
+
+  .slider img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .photos {
+    width: 100px;
+  }
+  
+  .map. .route {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+/* 320pxまでの幅の場合に適応される */
+}
