@@ -420,20 +420,21 @@ footer p {
 
 
   .slider {
-
+    width: 200px;
+    height: 300px;
   }
 
   .slider img {
-    width: 800px;
-    height: 550px;
+    width: 50%;
+    height: 50%;
   }
   
   .photos {
-    width: 75%;
+    width: 100px;
   }
   
   .map. .route {
-    width: 50%;
+    width: 150px;
   }
 }
 @media screen and (max-width: 320px) {
