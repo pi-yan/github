@@ -163,6 +163,10 @@ header img {
   display: flex;
 }
 
+.message-text img {
+  width: 500px;
+}
+
 .photos {
   float: left;
   border-radius: 5px;
